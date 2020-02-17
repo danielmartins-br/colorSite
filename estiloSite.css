@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Fondamento', cursive;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cores{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.cores #verde,#vermelho,#marrom,#azul,#amarelo,#roxo{
+    border-radius: 10px;
+}
+
+.cores #verde{
+    background-color: green;
+}
+
+.cores #vermelho{
+    background-color: red;
+}
+
+.cores #marrom{
+    background-color: #654321;
+}
+
+.cores #azul{
+    background-color: blue;
+}
+
+.cores #amarelo{
+    background-color: #eead2d;
+}
+
+.cores #roxo{
+    background-color: purple;
+}
